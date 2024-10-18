@@ -14,6 +14,11 @@
 		2D83C4862CC2C9EA00C0DD28 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4852CC2C9EA00C0DD28 /* PushTransition.swift */; };
 		2D83C4882CC2C9FB00C0DD28 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4872CC2C9FB00C0DD28 /* Transition.swift */; };
 		2D83C48A2CC2CA2200C0DD28 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4892CC2CA2200C0DD28 /* AppRouter.swift */; };
+		2D83C4902CC2D05A00C0DD28 /* DetailPlannerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C48D2CC2D05A00C0DD28 /* DetailPlannerRouter.swift */; };
+		2D83C4912CC2D05A00C0DD28 /* DetailPlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C48E2CC2D05A00C0DD28 /* DetailPlannerViewController.swift */; };
+		2D83C4922CC2D05A00C0DD28 /* DetailPlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C48F2CC2D05A00C0DD28 /* DetailPlannerViewModel.swift */; };
+		2D83C49A2CC2D0EC00C0DD28 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4972CC2D0EC00C0DD28 /* BaseViewController.swift */; };
+		2D83C49B2CC2D0EC00C0DD28 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4982CC2D0EC00C0DD28 /* BaseViewModel.swift */; };
 		2DDC75D52CC20AD7001B9E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC75D42CC20AD7001B9E7D /* AppDelegate.swift */; };
 		2DDC75D92CC20AD7001B9E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC75D82CC20AD7001B9E7D /* ViewController.swift */; };
 		2DDC75DE2CC20AD9001B9E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC75DD2CC20AD9001B9E7D /* Assets.xcassets */; };
@@ -46,6 +51,11 @@
 		2D83C4872CC2C9FB00C0DD28 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		2D83C4892CC2CA2200C0DD28 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		2D83C48B2CC2CC2E00C0DD28 /* Daily-Planner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daily-Planner-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D83C48D2CC2D05A00C0DD28 /* DetailPlannerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlannerRouter.swift; sourceTree = "<group>"; };
+		2D83C48E2CC2D05A00C0DD28 /* DetailPlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlannerViewController.swift; sourceTree = "<group>"; };
+		2D83C48F2CC2D05A00C0DD28 /* DetailPlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlannerViewModel.swift; sourceTree = "<group>"; };
+		2D83C4972CC2D0EC00C0DD28 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2D83C4982CC2D0EC00C0DD28 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		2DDC75D12CC20AD7001B9E7D /* Daily-Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily-Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDC75D42CC20AD7001B9E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DDC75D82CC20AD7001B9E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +93,8 @@
 		2D83C4772CC2C94900C0DD28 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2D83C4952CC2D0DA00C0DD28 /* Base */,
+				2D83C48C2CC2CFFC00C0DD28 /* DetailPlanner */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -131,6 +143,25 @@
 				2D83C47F2CC2C9A700C0DD28 /* Router.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		2D83C48C2CC2CFFC00C0DD28 /* DetailPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				2D83C48D2CC2D05A00C0DD28 /* DetailPlannerRouter.swift */,
+				2D83C48E2CC2D05A00C0DD28 /* DetailPlannerViewController.swift */,
+				2D83C48F2CC2D05A00C0DD28 /* DetailPlannerViewModel.swift */,
+			);
+			path = DetailPlanner;
+			sourceTree = "<group>";
+		};
+		2D83C4952CC2D0DA00C0DD28 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2D83C4972CC2D0EC00C0DD28 /* BaseViewController.swift */,
+				2D83C4982CC2D0EC00C0DD28 /* BaseViewModel.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		2DDC75C82CC20AD7001B9E7D = {
@@ -292,10 +323,15 @@
 			files = (
 				2D83C4882CC2C9FB00C0DD28 /* Transition.swift in Sources */,
 				2D83C4822CC2C9C900C0DD28 /* ModalTransition.swift in Sources */,
+				2D83C4922CC2D05A00C0DD28 /* DetailPlannerViewModel.swift in Sources */,
 				2D83C4842CC2C9DA00C0DD28 /* PlaceOnWindowTransition.swift in Sources */,
+				2D83C4912CC2D05A00C0DD28 /* DetailPlannerViewController.swift in Sources */,
+				2D83C49A2CC2D0EC00C0DD28 /* BaseViewController.swift in Sources */,
 				2D83C4862CC2C9EA00C0DD28 /* PushTransition.swift in Sources */,
+				2D83C4902CC2D05A00C0DD28 /* DetailPlannerRouter.swift in Sources */,
 				2D83C47E2CC2C99B00C0DD28 /* Animator.swift in Sources */,
 				2DDC75D92CC20AD7001B9E7D /* ViewController.swift in Sources */,
+				2D83C49B2CC2D0EC00C0DD28 /* BaseViewModel.swift in Sources */,
 				2D83C4802CC2C9A700C0DD28 /* Router.swift in Sources */,
 				2DDC75D52CC20AD7001B9E7D /* AppDelegate.swift in Sources */,
 				2D83C48A2CC2CA2200C0DD28 /* AppRouter.swift in Sources */,
