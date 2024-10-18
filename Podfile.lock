@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: ae3e3a9c0ad5a76950bce0608ac35b645b13ae4e
+PODS:
+  - MobilliumBuilders (1.6.1)
+  - SwiftGen (6.6.3)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - MobilliumBuilders
+  - SwiftGen (~> 6.0)
+  - TinyConstraints (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - MobilliumBuilders
+    - SwiftGen
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  MobilliumBuilders: fe858e0098491eb989539ebe8ddf4d5f7db6809e
+  SwiftGen: 4993cbf71cbc4886f775e26f8d5c3a1188ec9f99
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 9f9c2b8f77e566b2111059f47e9bc365b2c2cf14
 
 COCOAPODS: 1.12.1

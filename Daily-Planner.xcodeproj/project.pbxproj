@@ -7,16 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D83C47E2CC2C99B00C0DD28 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C47D2CC2C99B00C0DD28 /* Animator.swift */; };
+		2D83C4802CC2C9A700C0DD28 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C47F2CC2C9A700C0DD28 /* Router.swift */; };
+		2D83C4822CC2C9C900C0DD28 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4812CC2C9C900C0DD28 /* ModalTransition.swift */; };
+		2D83C4842CC2C9DA00C0DD28 /* PlaceOnWindowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4832CC2C9DA00C0DD28 /* PlaceOnWindowTransition.swift */; };
+		2D83C4862CC2C9EA00C0DD28 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4852CC2C9EA00C0DD28 /* PushTransition.swift */; };
+		2D83C4882CC2C9FB00C0DD28 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4872CC2C9FB00C0DD28 /* Transition.swift */; };
+		2D83C48A2CC2CA2200C0DD28 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4892CC2CA2200C0DD28 /* AppRouter.swift */; };
 		2DDC75D52CC20AD7001B9E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC75D42CC20AD7001B9E7D /* AppDelegate.swift */; };
 		2DDC75D72CC20AD7001B9E7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC75D62CC20AD7001B9E7D /* SceneDelegate.swift */; };
 		2DDC75D92CC20AD7001B9E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC75D82CC20AD7001B9E7D /* ViewController.swift */; };
 		2DDC75DC2CC20AD7001B9E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC75DA2CC20AD7001B9E7D /* Main.storyboard */; };
 		2DDC75DE2CC20AD9001B9E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC75DD2CC20AD9001B9E7D /* Assets.xcassets */; };
 		2DDC75E12CC20AD9001B9E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC75DF2CC20AD9001B9E7D /* LaunchScreen.storyboard */; };
+		2DDC75FE2CC20DDB001B9E7D /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */; };
+		2DDC75FF2CC20DDB001B9E7D /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		432337847364CB6AB967D875 /* Pods_Daily_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53884F8BC68BCF169BDAAAEE /* Pods_Daily_Planner.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2DDC76002CC20DDB001B9E7D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2DDC75FF2CC20DDB001B9E7D /* UIComponents.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2D83C47D2CC2C99B00C0DD28 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		2D83C47F2CC2C9A700C0DD28 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2D83C4812CC2C9C900C0DD28 /* ModalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		2D83C4832CC2C9DA00C0DD28 /* PlaceOnWindowTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOnWindowTransition.swift; sourceTree = "<group>"; };
+		2D83C4852CC2C9EA00C0DD28 /* PushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		2D83C4872CC2C9FB00C0DD28 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		2D83C4892CC2CA2200C0DD28 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		2DDC75D12CC20AD7001B9E7D /* Daily-Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily-Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDC75D42CC20AD7001B9E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DDC75D62CC20AD7001B9E7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +55,8 @@
 		2DDC75DD2CC20AD9001B9E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DDC75E02CC20AD9001B9E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DDC75E22CC20AD9001B9E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DDC75FC2CC20DC7001B9E7D /* Daily-Planner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daily-Planner-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53884F8BC68BCF169BDAAAEE /* Pods_Daily_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D354BF3A9ADC780ED06FD0 /* Pods-Daily-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Planner.debug.xcconfig"; path = "Target Support Files/Pods-Daily-Planner/Pods-Daily-Planner.debug.xcconfig"; sourceTree = "<group>"; };
 		96D35DE882F891A0EF81D9FD /* Pods-Daily-Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Planner.release.xcconfig"; path = "Target Support Files/Pods-Daily-Planner/Pods-Daily-Planner.release.xcconfig"; sourceTree = "<group>"; };
@@ -35,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDC75FE2CC20DDB001B9E7D /* UIComponents.framework in Frameworks */,
 				432337847364CB6AB967D875 /* Pods_Daily_Planner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,9 +78,63 @@
 		1C1FD48416BD1A028B6F85C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */,
 				53884F8BC68BCF169BDAAAEE /* Pods_Daily_Planner.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D83C4772CC2C94900C0DD28 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2D83C4782CC2C97100C0DD28 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2D83C47C2CC2C98D00C0DD28 /* Core */,
+				2D83C47B2CC2C98400C0DD28 /* Routers */,
+				2D83C47A2CC2C97C00C0DD28 /* Transitions */,
+				2D83C4792CC2C97600C0DD28 /* Route */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		2D83C4792CC2C97600C0DD28 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		2D83C47A2CC2C97C00C0DD28 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				2D83C4812CC2C9C900C0DD28 /* ModalTransition.swift */,
+				2D83C4832CC2C9DA00C0DD28 /* PlaceOnWindowTransition.swift */,
+				2D83C4852CC2C9EA00C0DD28 /* PushTransition.swift */,
+				2D83C4872CC2C9FB00C0DD28 /* Transition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		2D83C47B2CC2C98400C0DD28 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				2D83C4892CC2CA2200C0DD28 /* AppRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		2D83C47C2CC2C98D00C0DD28 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2D83C47D2CC2C99B00C0DD28 /* Animator.swift */,
+				2D83C47F2CC2C9A700C0DD28 /* Router.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		2DDC75C82CC20AD7001B9E7D = {
@@ -71,6 +158,8 @@
 		2DDC75D32CC20AD7001B9E7D /* Daily-Planner */ = {
 			isa = PBXGroup;
 			children = (
+				2D83C4782CC2C97100C0DD28 /* Routing */,
+				2D83C4772CC2C94900C0DD28 /* Scenes */,
 				2DDC75D42CC20AD7001B9E7D /* AppDelegate.swift */,
 				2DDC75D62CC20AD7001B9E7D /* SceneDelegate.swift */,
 				2DDC75D82CC20AD7001B9E7D /* ViewController.swift */,
@@ -78,6 +167,7 @@
 				2DDC75DD2CC20AD9001B9E7D /* Assets.xcassets */,
 				2DDC75DF2CC20AD9001B9E7D /* LaunchScreen.storyboard */,
 				2DDC75E22CC20AD9001B9E7D /* Info.plist */,
+				2DDC75FC2CC20DC7001B9E7D /* Daily-Planner-Bridging-Header.h */,
 			);
 			path = "Daily-Planner";
 			sourceTree = "<group>";
@@ -88,7 +178,6 @@
 				83D354BF3A9ADC780ED06FD0 /* Pods-Daily-Planner.debug.xcconfig */,
 				96D35DE882F891A0EF81D9FD /* Pods-Daily-Planner.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -103,6 +192,8 @@
 				2DDC75CD2CC20AD7001B9E7D /* Sources */,
 				2DDC75CE2CC20AD7001B9E7D /* Frameworks */,
 				2DDC75CF2CC20AD7001B9E7D /* Resources */,
+				2DDC76002CC20DDB001B9E7D /* Embed Frameworks */,
+				ECDB3A33031B933CADB702CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +273,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		ECDB3A33031B933CADB702CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily-Planner/Pods-Daily-Planner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily-Planner/Pods-Daily-Planner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily-Planner/Pods-Daily-Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,8 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D83C4882CC2C9FB00C0DD28 /* Transition.swift in Sources */,
+				2D83C4822CC2C9C900C0DD28 /* ModalTransition.swift in Sources */,
+				2D83C4842CC2C9DA00C0DD28 /* PlaceOnWindowTransition.swift in Sources */,
+				2D83C4862CC2C9EA00C0DD28 /* PushTransition.swift in Sources */,
+				2D83C47E2CC2C99B00C0DD28 /* Animator.swift in Sources */,
 				2DDC75D92CC20AD7001B9E7D /* ViewController.swift in Sources */,
+				2D83C4802CC2C9A700C0DD28 /* Router.swift in Sources */,
 				2DDC75D52CC20AD7001B9E7D /* AppDelegate.swift in Sources */,
+				2D83C48A2CC2CA2200C0DD28 /* AppRouter.swift in Sources */,
 				2DDC75D72CC20AD7001B9E7D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,7 +369,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -317,7 +432,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
