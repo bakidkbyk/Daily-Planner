@@ -15,9 +15,7 @@
 		2D83C4882CC2C9FB00C0DD28 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4872CC2C9FB00C0DD28 /* Transition.swift */; };
 		2D83C48A2CC2CA2200C0DD28 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4892CC2CA2200C0DD28 /* AppRouter.swift */; };
 		2DDC75D52CC20AD7001B9E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC75D42CC20AD7001B9E7D /* AppDelegate.swift */; };
-		2DDC75D72CC20AD7001B9E7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC75D62CC20AD7001B9E7D /* SceneDelegate.swift */; };
 		2DDC75D92CC20AD7001B9E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC75D82CC20AD7001B9E7D /* ViewController.swift */; };
-		2DDC75DC2CC20AD7001B9E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC75DA2CC20AD7001B9E7D /* Main.storyboard */; };
 		2DDC75DE2CC20AD9001B9E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC75DD2CC20AD9001B9E7D /* Assets.xcassets */; };
 		2DDC75E12CC20AD9001B9E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC75DF2CC20AD9001B9E7D /* LaunchScreen.storyboard */; };
 		2DDC75FE2CC20DDB001B9E7D /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */; };
@@ -47,15 +45,13 @@
 		2D83C4852CC2C9EA00C0DD28 /* PushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
 		2D83C4872CC2C9FB00C0DD28 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		2D83C4892CC2CA2200C0DD28 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		2D83C48B2CC2CC2E00C0DD28 /* Daily-Planner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daily-Planner-Bridging-Header.h"; sourceTree = "<group>"; };
 		2DDC75D12CC20AD7001B9E7D /* Daily-Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily-Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDC75D42CC20AD7001B9E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DDC75D62CC20AD7001B9E7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DDC75D82CC20AD7001B9E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DDC75DB2CC20AD7001B9E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DDC75DD2CC20AD9001B9E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DDC75E02CC20AD9001B9E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DDC75E22CC20AD9001B9E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DDC75FC2CC20DC7001B9E7D /* Daily-Planner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daily-Planner-Bridging-Header.h"; sourceTree = "<group>"; };
 		2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53884F8BC68BCF169BDAAAEE /* Pods_Daily_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D354BF3A9ADC780ED06FD0 /* Pods-Daily-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Planner.debug.xcconfig"; path = "Target Support Files/Pods-Daily-Planner/Pods-Daily-Planner.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,13 +157,11 @@
 				2D83C4782CC2C97100C0DD28 /* Routing */,
 				2D83C4772CC2C94900C0DD28 /* Scenes */,
 				2DDC75D42CC20AD7001B9E7D /* AppDelegate.swift */,
-				2DDC75D62CC20AD7001B9E7D /* SceneDelegate.swift */,
 				2DDC75D82CC20AD7001B9E7D /* ViewController.swift */,
-				2DDC75DA2CC20AD7001B9E7D /* Main.storyboard */,
 				2DDC75DD2CC20AD9001B9E7D /* Assets.xcassets */,
 				2DDC75DF2CC20AD9001B9E7D /* LaunchScreen.storyboard */,
+				2D83C48B2CC2CC2E00C0DD28 /* Daily-Planner-Bridging-Header.h */,
 				2DDC75E22CC20AD9001B9E7D /* Info.plist */,
-				2DDC75FC2CC20DC7001B9E7D /* Daily-Planner-Bridging-Header.h */,
 			);
 			path = "Daily-Planner";
 			sourceTree = "<group>";
@@ -244,7 +238,6 @@
 			files = (
 				2DDC75E12CC20AD9001B9E7D /* LaunchScreen.storyboard in Resources */,
 				2DDC75DE2CC20AD9001B9E7D /* Assets.xcassets in Resources */,
-				2DDC75DC2CC20AD7001B9E7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,21 +299,12 @@
 				2D83C4802CC2C9A700C0DD28 /* Router.swift in Sources */,
 				2DDC75D52CC20AD7001B9E7D /* AppDelegate.swift in Sources */,
 				2D83C48A2CC2CA2200C0DD28 /* AppRouter.swift in Sources */,
-				2DDC75D72CC20AD7001B9E7D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2DDC75DA2CC20AD7001B9E7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DDC75DB2CC20AD7001B9E7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DDC75DF2CC20AD9001B9E7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -464,7 +448,6 @@
 				INFOPLIST_FILE = "Daily-Planner/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,7 +476,6 @@
 				INFOPLIST_FILE = "Daily-Planner/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
