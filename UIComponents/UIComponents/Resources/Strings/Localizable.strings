@@ -6,4 +6,13 @@
   
 */
 
-"BaseController.tryAgainButtonText" = "Tekrar Dene";
+// MARK: - Detail Planner
+"DetailPlanner.plannerDetailTitleLabel" = "Planlayici Olustur";
+"DetailPlanner.plannerNameLabel" = "Planlayici Adi";
+"DetailPlanner.descriptionLabel" = "Aciklama (Istege bagli)";
+"DetailPlanner.dayLabel" = "Gun";
+"DetailPlanner.hourLabel" = "Saat";
+"DetailPlanner.cancelButtontext" = "Vazgec";
+"DetailPlanner.actionButtonText" = "Olustur";
+
+

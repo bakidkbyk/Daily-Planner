@@ -25,7 +25,7 @@ target 'UIComponents' do
   project 'UIComponents/UIComponents.xcodeproj'
 
   # Helper
-  pod 'SwiftGen', '~> 6.0'
+  pod 'SwiftGen'
   pod 'MobilliumBuilders'
 
   # UI
