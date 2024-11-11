@@ -5,7 +5,7 @@ PODS:
 
 DEPENDENCIES:
   - MobilliumBuilders
-  - SwiftGen (~> 6.0)
+  - SwiftGen
   - TinyConstraints (~> 4.0)
 
 SPEC REPOS:
@@ -19,6 +19,6 @@ SPEC CHECKSUMS:
   SwiftGen: 4993cbf71cbc4886f775e26f8d5c3a1188ec9f99
   TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
-PODFILE CHECKSUM: 9f9c2b8f77e566b2111059f47e9bc365b2c2cf14
+PODFILE CHECKSUM: 9ec86aa989b25c88026d3e99e70db2a49ee3c80d
 
 COCOAPODS: 1.12.1

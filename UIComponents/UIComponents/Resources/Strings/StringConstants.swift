@@ -11,9 +11,21 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 public enum L10n {
 
-  public enum BaseController {
-    /// Tekrar Dene
-    public static let tryAgainButtonText = L10n.tr("Localizable", "BaseController.tryAgainButtonText")
+  public enum DetailPlanner {
+    /// Olustur
+    public static let actionButtonText = L10n.tr("Localizable", "DetailPlanner.actionButtonText")
+    /// Vazgec
+    public static let cancelButtontext = L10n.tr("Localizable", "DetailPlanner.cancelButtontext")
+    /// Gun
+    public static let dayLabel = L10n.tr("Localizable", "DetailPlanner.dayLabel")
+    /// Aciklama (Istege bagli)
+    public static let descriptionLabel = L10n.tr("Localizable", "DetailPlanner.descriptionLabel")
+    /// Saat
+    public static let hourLabel = L10n.tr("Localizable", "DetailPlanner.hourLabel")
+    /// Planlayici Olustur
+    public static let plannerDetailTitleLabel = L10n.tr("Localizable", "DetailPlanner.plannerDetailTitleLabel")
+    /// Planlayici Adi
+    public static let plannerNameLabel = L10n.tr("Localizable", "DetailPlanner.plannerNameLabel")
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length

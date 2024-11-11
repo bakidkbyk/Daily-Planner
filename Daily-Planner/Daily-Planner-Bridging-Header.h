@@ -1,12 +1,6 @@
 //
-//  Daily-Planner-Bridging-Header.h
-//  Daily-Planner
-//
-//  Created by Baki Dikbıyık on 18.10.2024.
+//  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-#ifndef Daily_Planner_Bridging_Header_h
-#define Daily_Planner_Bridging_Header_h
-
-
-#endif /* Daily_Planner_Bridging_Header_h */
+#import <UIComponents/UIComponents.h>
+#import <TinyConstraints/TinyConstraints-Swift.h>
