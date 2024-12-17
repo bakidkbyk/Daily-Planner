@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D24E5A92CE1AB97007412AF /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D24E5A62CE1AB97007412AF /* HomeRouter.swift */; };
+		2D24E5AA2CE1AB97007412AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D24E5A72CE1AB97007412AF /* HomeViewController.swift */; };
+		2D24E5AB2CE1AB97007412AF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D24E5A82CE1AB97007412AF /* HomeViewModel.swift */; };
 		2D83C47E2CC2C99B00C0DD28 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C47D2CC2C99B00C0DD28 /* Animator.swift */; };
 		2D83C4802CC2C9A700C0DD28 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C47F2CC2C9A700C0DD28 /* Router.swift */; };
 		2D83C4822CC2C9C900C0DD28 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83C4812CC2C9C900C0DD28 /* ModalTransition.swift */; };
@@ -25,6 +28,7 @@
 		2DDC75E12CC20AD9001B9E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDC75DF2CC20AD9001B9E7D /* LaunchScreen.storyboard */; };
 		2DDC75FE2CC20DDB001B9E7D /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */; };
 		2DDC75FF2CC20DDB001B9E7D /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DEEEDCD2CE5872400D61177 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEEEDCC2CE5872400D61177 /* HomeRoute.swift */; };
 		432337847364CB6AB967D875 /* Pods_Daily_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53884F8BC68BCF169BDAAAEE /* Pods_Daily_Planner.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +47,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D24E5A62CE1AB97007412AF /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		2D24E5A72CE1AB97007412AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2D24E5A82CE1AB97007412AF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		2D83C47D2CC2C99B00C0DD28 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		2D83C47F2CC2C9A700C0DD28 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		2D83C4812CC2C9C900C0DD28 /* ModalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
@@ -63,6 +70,7 @@
 		2DDC75E02CC20AD9001B9E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DDC75E22CC20AD9001B9E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DDC75FD2CC20DDB001B9E7D /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEEEDCC2CE5872400D61177 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
 		53884F8BC68BCF169BDAAAEE /* Pods_Daily_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D354BF3A9ADC780ED06FD0 /* Pods-Daily-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Planner.debug.xcconfig"; path = "Target Support Files/Pods-Daily-Planner/Pods-Daily-Planner.debug.xcconfig"; sourceTree = "<group>"; };
 		96D35DE882F891A0EF81D9FD /* Pods-Daily-Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Planner.release.xcconfig"; path = "Target Support Files/Pods-Daily-Planner/Pods-Daily-Planner.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,9 +98,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2D24E5A52CE1AB7C007412AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2D24E5A72CE1AB97007412AF /* HomeViewController.swift */,
+				2D24E5A82CE1AB97007412AF /* HomeViewModel.swift */,
+				2D24E5A62CE1AB97007412AF /* HomeRouter.swift */,
+				2DEEEDCC2CE5872400D61177 /* HomeRoute.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		2D83C4772CC2C94900C0DD28 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2D24E5A52CE1AB7C007412AF /* Home */,
 				2D83C49E2CC2D23B00C0DD28 /* AppDelegate */,
 				2D83C4952CC2D0DA00C0DD28 /* Base */,
 				2D83C48C2CC2CFFC00C0DD28 /* DetailPlanner */,
@@ -329,19 +349,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D24E5AB2CE1AB97007412AF /* HomeViewModel.swift in Sources */,
 				2D83C4882CC2C9FB00C0DD28 /* Transition.swift in Sources */,
 				2D83C4822CC2C9C900C0DD28 /* ModalTransition.swift in Sources */,
 				2D83C4922CC2D05A00C0DD28 /* DetailPlannerViewModel.swift in Sources */,
 				2D83C4842CC2C9DA00C0DD28 /* PlaceOnWindowTransition.swift in Sources */,
+				2D24E5A92CE1AB97007412AF /* HomeRouter.swift in Sources */,
 				2D83C4912CC2D05A00C0DD28 /* DetailPlannerViewController.swift in Sources */,
 				2D83C49A2CC2D0EC00C0DD28 /* BaseViewController.swift in Sources */,
 				2D83C4862CC2C9EA00C0DD28 /* PushTransition.swift in Sources */,
 				2D83C4902CC2D05A00C0DD28 /* DetailPlannerRouter.swift in Sources */,
 				2D83C47E2CC2C99B00C0DD28 /* Animator.swift in Sources */,
 				2D83C49B2CC2D0EC00C0DD28 /* BaseViewModel.swift in Sources */,
+				2D24E5AA2CE1AB97007412AF /* HomeViewController.swift in Sources */,
 				2D83C49D2CC2D1CB00C0DD28 /* DetailPlannerRoute.swift in Sources */,
 				2D83C4802CC2C9A700C0DD28 /* Router.swift in Sources */,
 				2DDC75D52CC20AD7001B9E7D /* AppDelegate.swift in Sources */,
+				2DEEEDCD2CE5872400D61177 /* HomeRoute.swift in Sources */,
 				2D83C48A2CC2CA2200C0DD28 /* AppRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

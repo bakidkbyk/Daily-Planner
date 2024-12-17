@@ -12,6 +12,9 @@
 		2D83C4A02CC3463000C0DD28 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2078A2CC21CD900C8DFC6 /* Nunito-ExtraBold.ttf */; };
 		2D83C4A12CC3463200C0DD28 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF207892CC21CD800C8DFC6 /* Nunito-Bold.ttf */; };
 		2DDC75F62CC20D8E001B9E7D /* UIComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDC75F52CC20D8E001B9E7D /* UIComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DEEEDD12CE595DB00D61177 /* PlannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEEEDCF2CE595DB00D61177 /* PlannerCell.swift */; };
+		2DEEEDD22CE595DB00D61177 /* PlannerCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEEEDD02CE595DB00D61177 /* PlannerCellModel.swift */; };
+		2DEEEDD52CE5962000D61177 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEEEDD42CE5962000D61177 /* ReusableView.swift */; };
 		2DF207692CC21BB100C8DFC6 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2DF207682CC21BB100C8DFC6 /* swiftgen.yml */; };
 		2DF2076E2CC21BE600C8DFC6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2076D2CC21BE600C8DFC6 /* Localizable.strings */; };
 		2DF207702CC21BF800C8DFC6 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2076F2CC21BF800C8DFC6 /* StringConstants.swift */; };
@@ -32,6 +35,9 @@
 		2D695EA72CD31CE7005E2E81 /* ButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
 		2DDC75F22CC20D8E001B9E7D /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDC75F52CC20D8E001B9E7D /* UIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIComponents.h; sourceTree = "<group>"; };
+		2DEEEDCF2CE595DB00D61177 /* PlannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerCell.swift; sourceTree = "<group>"; };
+		2DEEEDD02CE595DB00D61177 /* PlannerCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerCellModel.swift; sourceTree = "<group>"; };
+		2DEEEDD42CE5962000D61177 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		2DF207682CC21BB100C8DFC6 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		2DF2076D2CC21BE600C8DFC6 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		2DF2076F2CC21BF800C8DFC6 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
@@ -95,11 +101,30 @@
 		2DDC75F42CC20D8E001B9E7D /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				2DEEEDD32CE5960E00D61177 /* Protocols */,
+				2DEEEDCE2CE5958E00D61177 /* Cell */,
 				2D695EA62CD31CD2005E2E81 /* ButtonFactory */,
 				2DF207672CC21B8E00C8DFC6 /* Resources */,
 				2DDC75F52CC20D8E001B9E7D /* UIComponents.h */,
 			);
 			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		2DEEEDCE2CE5958E00D61177 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2DEEEDCF2CE595DB00D61177 /* PlannerCell.swift */,
+				2DEEEDD02CE595DB00D61177 /* PlannerCellModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2DEEEDD32CE5960E00D61177 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2DEEEDD42CE5962000D61177 /* ReusableView.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		2DF207672CC21B8E00C8DFC6 /* Resources */ = {
@@ -300,7 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D695EA82CD31CE7005E2E81 /* ButtonFactory.swift in Sources */,
+				2DEEEDD22CE595DB00D61177 /* PlannerCellModel.swift in Sources */,
 				2DF207822CC21C7500C8DFC6 /* Fonts.swift in Sources */,
+				2DEEEDD52CE5962000D61177 /* ReusableView.swift in Sources */,
+				2DEEEDD12CE595DB00D61177 /* PlannerCell.swift in Sources */,
 				2DF207722CC21C0000C8DFC6 /* Localize.swift in Sources */,
 				2DF207852CC21C9D00C8DFC6 /* UIFont+Extensions.swift in Sources */,
 				2DF207802CC21C5100C8DFC6 /* UIColor+Colors.swift in Sources */,

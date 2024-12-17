@@ -9,10 +9,10 @@ import Foundation
 
 final class AppRouter: Router, AppRouter.Routes {
     
-    typealias Routes = DetailPlannerRoute
+    typealias Routes = HomeRoute
     static let shared = AppRouter()
     
     func startApp() {
-        presentDetailPlanner()
+        presentHome()
     }
 }
